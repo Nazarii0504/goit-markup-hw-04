@@ -284,12 +284,13 @@ button {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .team-general {
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
 }
 
 .team-block:not(:last-child): {
@@ -302,6 +303,7 @@ button {
   height: 44px;
   justify-content: center;
   align-items: center;
+  fill: #afb1b8;
 }
 .team-block-link:hover,
 .team-block-link:focus {
@@ -323,15 +325,21 @@ button {
   align-items: center;
   width: 170px;
   height: 92px;
-  border: 1px solid var(--second-text-color);
+  border: 1px solid #afb1b8;
+  fill: #afb1b8;
+}
+.section-client {
+  margin-bottom: 50px;
 }
 .client-block-link:focus,
 .client-block-link:hover {
   fill: var(--acent-color);
+  border-color: var(--acent-color);
 }
 .client-block:not(:last-child) {
   margin-right: 30px;
 }
+
 .client-icon {
   width: 106px;
   height: 60px;
@@ -398,6 +406,50 @@ button {
 }
 .bottom-phone:focus {
   color: var(--third-text-color);
+}
+
+/* .voice{
+     color: var(--third-text-color);
+   width: 700px;
+line-height: 1.17;
+height: 16px; */
+
+.bottom-container {
+  display: flex;
+}
+.bottom-container-address {
+  margin-right: 74px;
+}
+.footer-general {
+  display: flex;
+  padding-top: 20px;
+}
+.bottom-address-text {
+  width: 700px;
+  line-height: 1.72;
+  size: 14px;
+  color: var(--third-text-color);
+}
+.footer-block:not(:last-child): {
+  margin-right: 10px;
+}
+.footer-block-link {
+  display: flex;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+}
+.footer-block-link:hover,
+.footer-block-link:focus {
+  background-color: var(--acent-color);
+  fill: var(--third-text-color);
+}
+.footer-icon {
+  width: 20px;
+  height: 20px;
 }
 /* ----------------Portfolio main-------------*/
 .hero-list {
