@@ -76,9 +76,7 @@ button {
   margin: -1px;
 }
 /* -----------------Header --------*/
-.object {
-  border-bottom: 1px solid #ececec;
-}
+
 .flex-box {
   display: flex;
   align-items: center;
@@ -153,13 +151,28 @@ button {
 .address-phone-icon:hover {
   color: var(--acent-color);
 }
-
+.object {
+  border-bottom: 1px solid #ececec;
+}
 /* --------------Main-------- */
 .upmain {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-color: #2f303a;
 }
 .upmain-title {
   margin-bottom: 30px;
@@ -186,6 +199,7 @@ button {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
+
 /* ------------------About ------------------*/
 .about {
   display: flex;
@@ -243,7 +257,7 @@ button {
 .work-list {
   width: calc((100% -60px) / 3);
 }
-.work-list:not(last-child) {
+.work-list:not(:last-child) {
   margin-right: 30px;
 }
 /* ---------------Team ------------------*/
@@ -408,12 +422,6 @@ button {
   color: var(--third-text-color);
 }
 
-/* .voice{
-     color: var(--third-text-color);
-   width: 700px;
-line-height: 1.17;
-height: 16px; */
-
 .bottom-container {
   display: flex;
 }
@@ -425,6 +433,7 @@ height: 16px; */
   padding-top: 20px;
 }
 .bottom-address-text {
+  padding-top: 10px;
   width: 700px;
   line-height: 1.72;
   size: 14px;
@@ -446,7 +455,10 @@ height: 16px; */
 .footer-block-link:focus {
   background-color: var(--acent-color);
   fill: var(--third-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .footer-icon {
   width: 20px;
   height: 20px;
@@ -497,6 +509,11 @@ height: 16px; */
 }
 .gallery-list:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
+}
+.gallerry-list:hover {
+  border: none;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .gallery-content {
   padding-top: 20px;
