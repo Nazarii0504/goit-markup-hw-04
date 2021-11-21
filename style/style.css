@@ -121,6 +121,10 @@ button {
   display: flex;
   margin-left: auto;
 }
+.address-list {
+  display: flex;
+  align-items: center;
+}
 .address-list:not(:last-child) {
   margin-right: 43px;
 }
