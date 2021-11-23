@@ -439,8 +439,7 @@ align-items:baseline;
   padding-top: 20px;
 }
 .bottom-address-text {
-  padding-top: 10px;
-  width: 700px;
+    width: 700px;
   line-height: 1.72;
   size: 14px;
   color: var(--third-text-color);
