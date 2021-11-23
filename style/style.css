@@ -444,8 +444,9 @@ align-items:baseline;
   size: 14px;
   color: var(--third-text-color);
 }
-.footer-block:not(:last-child): {
-  margin-right: 10px;
+.footer-block:not(:last-child)
+{
+  margin-right: 20px;
 }
 .footer-block-link {
   display: flex;
@@ -455,6 +456,7 @@ align-items:baseline;
   justify-content: center;
   align-items: center;
   fill: #afb1b8;
+ background-color:  rgba(255, 255, 255, 0.1);
 }
 .footer-block-link:hover,
 .footer-block-link:focus {
